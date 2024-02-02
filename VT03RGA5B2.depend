@@ -1,0 +1,353 @@
+# depslib dependency file v1.0
+1542835777 source:/home/pi/projektit/VT03RGA5B2/bcm2835.c
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+	<sys/types.h>
+	"bcm2835.h"
+
+1542835686 /home/pi/projektit/VT03RGA5B2/bcm2835.h
+	<stdint.h>
+
+1547285483 source:/home/pi/projektit/VT03RGA5B2/mqtt.c
+	"mqtt.h"
+
+1544715673 /home/pi/projektit/VT03RGA5B2/mqtt.h
+	"mqtt_pal.h"
+
+1544715380 /home/pi/projektit/VT03RGA5B2/mqtt_pal.h
+	<limits.h>
+	<string.h>
+	<stdarg.h>
+	<time.h>
+	<arpa/inet.h>
+	<pthread.h>
+	<openssl/bio.h>
+
+1544715691 source:/home/pi/projektit/VT03RGA5B2/mqtt_pal.c
+	"mqtt.h"
+	<openssl/bio.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<errno.h>
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/main.cpp
+	<cstdio>
+	<iostream>
+	<memory>
+	<stdexcept>
+	<string>
+	<cstring>
+	<array>
+	<csignal>
+	<cstdlib>
+	<stdio.h>
+	<stdbool.h>
+	<unistd.h>
+	<time.h>
+	<chrono>
+	<systemd/sd-daemon.h>
+	"bcm2835.h"
+	"conf.h"
+	"messenger.h"
+
+1544719072 /home/pi/projektit/VT03RGA5B2/posix_sockets.h
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<fcntl.h>
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/src/bcm2835.c
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+	<sys/types.h>
+	"bcm2835.h"
+
+1625034301 /home/pi/projektit/VT03RGA5B2/include/bcm2835.h
+	<stdint.h>
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/src/mqtt.c
+	"mqtt.h"
+
+1625034301 /home/pi/projektit/VT03RGA5B2/include/mqtt.h
+	"mqtt_pal.h"
+
+1625034301 /home/pi/projektit/VT03RGA5B2/include/mqtt_pal.h
+	<limits.h>
+	<string.h>
+	<stdarg.h>
+	<time.h>
+	<arpa/inet.h>
+	<pthread.h>
+	<openssl/bio.h>
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/src/mqtt_pal.c
+	"mqtt.h"
+	<openssl/bio.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<errno.h>
+
+1625034301 /home/pi/projektit/VT03RGA5B2/include/messenger.h
+	<stdio.h>
+	<cstdlib>
+	<time.h>
+	<unistd.h>
+	"mqtt.h"
+	"posix_sockets.h"
+	<pthread.h>
+	"vt3r0.h"
+	"bcm2835.h"
+
+1625034301 /home/pi/projektit/VT03RGA5B2/include/posix_sockets.h
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/src/messenger.cpp
+	"messenger.h"
+
+1625034301 source:/home/pi/projektit/VT03RGA5B2/src/posix_sockets.c
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<fcntl.h>
+
+1557289941 /home/pi/projektit/VT03RGA5B2/include/vt03rga5b.h
+
+1645966724 /home/pi/projektit/VT03RGA5B2/include/conf.h
+	<stdint.h>
+	<vector>
+	"vt3r0.h"
+	"module.h"
+	"adci2c.h"
+
+1646071481 source:/home/pi/projektit/VT03RGA5B2/src/conf.cpp
+	<iostream>
+	<cstring>
+	<thread>
+	<time.h>
+	<chrono>
+	"bcm2835.h"
+	"conf.h"
+	"module.h"
+	"adci2c.h"
+	"adxl372.h"
+	"digitalin.h"
+	"exti2c.h"
+	"tempi2c.h"
+
+1646121084 /home/pi/projektit/VT03RGA5B2/include/vt3r0.h
+	<stdint.h>
+
+1565594740 source:/home/pi/spectral/fft_wiki.cpp
+	<math.h>
+	"fft_wiki.hpp"
+
+1565594740 /home/pi/spectral/fft_wiki.hpp
+	<complex>
+
+1565594740 source:/home/pi/spectral/spectrum_analyzer.cpp
+	<iostream>
+	<memory.h>
+	<math.h>
+	"spectrum_analyzer.hpp"
+
+1565594740 /home/pi/spectral/spectrum_analyzer.hpp
+	<stdint.h>
+	"fft_wiki.hpp"
+
+1605009053 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/bcm2835.c
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+	<sys/types.h>
+	"bcm2835.h"
+
+1605009053 /home/pi/vt3r0_fw/VT03RGA5B2/include/bcm2835.h
+	<stdint.h>
+
+1605702584 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/conf.cpp
+	<iostream>
+	<cstring>
+	<thread>
+	<algorithm>
+	<cmath>
+	"conf.h"
+	"bcm2835.h"
+
+1605009053 /home/pi/vt3r0_fw/VT03RGA5B2/include/conf.h
+	<stdint.h>
+	<vector>
+	<time.h>
+	<chrono>
+	"vt3r0.h"
+
+1606931902 /home/pi/vt3r0_fw/VT03RGA5B2/include/vt3r0.h
+
+1606990609 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/messenger.cpp
+	"messenger.h"
+
+1606569867 /home/pi/vt3r0_fw/VT03RGA5B2/include/messenger.h
+	<stdio.h>
+	<cstdlib>
+	<time.h>
+	<unistd.h>
+	"mqtt.h"
+	"posix_sockets.h"
+	<pthread.h>
+	"vt3r0.h"
+	"bcm2835.h"
+
+1605009053 /home/pi/vt3r0_fw/VT03RGA5B2/include/mqtt.h
+	"mqtt_pal.h"
+
+1605009053 /home/pi/vt3r0_fw/VT03RGA5B2/include/mqtt_pal.h
+	<limits.h>
+	<string.h>
+	<stdarg.h>
+	<time.h>
+	<arpa/inet.h>
+	<pthread.h>
+	<openssl/bio.h>
+
+1605009053 /home/pi/vt3r0_fw/VT03RGA5B2/include/posix_sockets.h
+
+1605009053 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/mqtt.c
+	"mqtt.h"
+
+1605009053 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/mqtt_pal.c
+	"mqtt.h"
+	<openssl/bio.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<errno.h>
+
+1605009053 source:/home/pi/vt3r0_fw/VT03RGA5B2/src/posix_sockets.c
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<fcntl.h>
+
+1606989846 source:/home/pi/vt3r0_fw/VT03RGA5B2/main.cpp
+	<cstdio>
+	<iostream>
+	<memory>
+	<stdexcept>
+	<string>
+	<cstring>
+	<array>
+	<csignal>
+	<cstdlib>
+	<stdio.h>
+	<stdbool.h>
+	<unistd.h>
+	<time.h>
+	<chrono>
+	<systemd/sd-daemon.h>
+	"bcm2835.h"
+	"conf.h"
+	"messenger.h"
+
+1646074353 /home/pi/projektit/VT03RGA5B2/include/module.h
+	<stdint.h>
+	<time.h>
+	<chrono>
+	<vector>
+	"vt3r0.h"
+
+1645965045 /home/pi/projektit/VT03RGA5B2/include/adci2c.h
+	"conf.h"
+
+1646117483 source:/home/pi/projektit/VT03RGA5B2/src/adci2c.cpp
+	<iostream>
+	"adci2c.h"
+	<iostream>
+	<cstring>
+	<thread>
+	<algorithm>
+	<cmath>
+	"conf.h"
+	"bcm2835.h"
+
+1645953126 /home/pi/projektit/VT03RGA5B2/include/adxl372.h
+	<stdint.h>
+	<vector>
+	<algorithm>
+	<cmath>
+	"vt3r0.h"
+	"module.h"
+
+1645950357 /home/pi/projektit/VT03RGA5B2/include/digitalin.h
+	<stdint.h>
+	"module.h"
+
+1645965045 /home/pi/projektit/VT03RGA5B2/include/exti2c.h
+	"module.h"
+
+1645951824 /home/pi/projektit/VT03RGA5B2/include/tempi2c.h
+	"module.h"
+
+1645949880 source:/home/pi/projektit/VT03RGA5B2/src/i2c.cpp
+	"i2c.h"
+	"bcm2835.h"
+
+1645949880 /home/pi/projektit/VT03RGA5B2/include/i2c.h
+	<stdint.h>
+	"vt3r0.h"
+
+1646119935 source:/home/pi/projektit/VT03RGA5B2/src/exti2c.cpp
+	<iostream>
+	<string.h>
+	<thread>
+	"bcm2835.h"
+	"module.h"
+	"exti2c.h"
+
+1646074839 source:/home/pi/projektit/VT03RGA5B2/src/module.cpp
+	<iostream>
+	"module.h"
+	<algorithm>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1646074668 source:/home/pi/projektit/VT03RGA5B2/src/tempi2c.cpp
+	<iostream>
+	"tempi2c.h"
+	<string.h>
+	<stdio.h>
+	"bcm2835.h"
+
+1646070563 source:/home/pi/projektit/VT03RGA5B2/src/digitalin.cpp
+	<iostream>
+	"digitalin.h"
+	<string.h>
+	<thread>
+	"bcm2835.h"
+
+1646070529 source:/home/pi/projektit/VT03RGA5B2/src/adxl372.cpp
+	<iostream>
+	<stdio.h>
+	"vt3r0.h"
+	"adxl372.h"
+	<string.h>
+	"bcm2835.h"
+	"i2c.h"
+

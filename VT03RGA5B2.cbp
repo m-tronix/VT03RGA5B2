@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VT03RGA5B2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/VT03RGA5B2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/VT03RGA5B2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+		</Compiler>
+		<Linker>
+			<Add library="pthread" />
+			<Add library="libsystemd" />
+		</Linker>
+		<Unit filename="include/adci2c.h" />
+		<Unit filename="include/adxl372.h" />
+		<Unit filename="include/bcm2835.h" />
+		<Unit filename="include/bio_sockets.h" />
+		<Unit filename="include/conf.h" />
+		<Unit filename="include/digitalin.h" />
+		<Unit filename="include/exti2c.h" />
+		<Unit filename="include/i2c.h" />
+		<Unit filename="include/messenger.h" />
+		<Unit filename="include/module.h" />
+		<Unit filename="include/mqtt.h" />
+		<Unit filename="include/mqtt_pal.h" />
+		<Unit filename="include/openssl_sockets.h" />
+		<Unit filename="include/posix_sockets.h" />
+		<Unit filename="include/tempi2c.h" />
+		<Unit filename="include/vt3r0.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/adci2c.cpp" />
+		<Unit filename="src/adxl372.cpp" />
+		<Unit filename="src/bcm2835.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/conf.cpp" />
+		<Unit filename="src/digitalin.cpp" />
+		<Unit filename="src/exti2c.cpp" />
+		<Unit filename="src/i2c.cpp" />
+		<Unit filename="src/messenger.cpp" />
+		<Unit filename="src/module.cpp" />
+		<Unit filename="src/mqtt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mqtt_pal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/posix_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tempi2c.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
